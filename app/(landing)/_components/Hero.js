@@ -67,8 +67,10 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5 w-full sm:w-auto">
             
             {/* Buy Kitty Button */}
-            <button
-              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-lg`}
+            <a
+              href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+              target="_blank"
+              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
               style={{
                 borderRadius: '19.2px',
                 border: '3px solid #000',
@@ -76,19 +78,15 @@ const Hero = () => {
                 boxShadow: '6px 6px 0 0 #000',
                 color: '#C42B10'
               }}
-              onMouseEnter={(e) => {
-                e.target.style.boxShadow = '3px 3px 0 0 #000';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.boxShadow = '6px 6px 0 0 #000';
-              }}
             >
               BUY KITTY
-            </button>
+            </a>
 
             {/* Dexscreener Button */}
-            <button
-              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-lg`}
+            <a
+              href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+              target="_blank"
+              className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
               style={{
                 borderRadius: '19.2px',
                 border: '3px solid #000',
@@ -96,15 +94,9 @@ const Hero = () => {
                 boxShadow: '6px 6px 0 0 #000',
                 color: '#FFF'
               }}
-              onMouseEnter={(e) => {
-                e.target.style.boxShadow = '3px 3px 0 0 #000';
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.boxShadow = '6px 6px 0 0 #000';
-              }}
             >
               DEXSCREENER
-            </button>
+            </a>
           </div>
         </div>
       </div>
