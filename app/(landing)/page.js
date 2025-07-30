@@ -75,6 +75,15 @@ export default function Home() {
           </div>
         </div>
         {/* <WallOfLove /> */}
+        <div className="flex justify-start pl-4">
+          <a
+            href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+            target="_blank"
+            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-white hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0 w-36"
+          >
+            Buy $DUIS
+          </a>
+        </div>
         <Footer />
       </div>
     </>
