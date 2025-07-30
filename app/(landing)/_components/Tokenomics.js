@@ -28,7 +28,7 @@ const Tokenomics = () => {
   return (
     <div id="tokenomics" className="max-w-[85rem] mx-auto py-12">
       <div className="my-16">
-        <h2 className="font-stopbuck text-6xl text-duis text-center" style={{textShadow: "1px 1px 3px rgba(0, 0, 0, 1)"}}>>
+        <h2 className="font-stopbuck text-6xl text-duis text-center" style={{textShadow: "1px 1px 3px rgba(0, 0, 0, 1)"}}>
           Tokenomics
         </h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
