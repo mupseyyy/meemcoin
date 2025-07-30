@@ -8,35 +8,38 @@ const About = () => {
         <div className="cloud -ms-6"></div>
       </div>
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
-        <div className="my-7">
-          <div className="font-stopbuck text-6xl text-duis text-shadow text-center mt-14">
-            About Dúi
-          </div>
-
-        </div>
-        <div className="grid lg:grid-cols-2 gap-6">
-          <div className="">
-
-          </div>
-
-          <div className="p-4 h-full sm:p-6">
-            <h3 className="font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-justify sm:text-left">
-
-            </h3>
-          </div>
-        </div>
-
-        <div className="mt-10 font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-center">
-          <p className="text-4xl p-10">
-            But now{" "}
-            <span className="text-5xl font-bold underline decoration-duis">
-              Dui
-            </span>{" "}
-            is forever on{" "}
-            <span className="text-5xl bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text font-bold">
-              Solana
-            </span>{" "}
+        <div className="relative mt-5 h-auto text-red-400 text-6xl">
+          <p>
+            &nbsp; &nbsp; &nbsp;KITTY <br />
+            &nbsp; &nbsp; &nbsp;THE MECHANIC
           </p>
+        </div>
+        <div className="relative mt-5 h-auto text-red-600">
+          <p>
+            <span className="text-lg">
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              FIRST FEMALE SHIBA - THE PEOPLE'S DOG COIN OF THIS CYCLE
+              <br />
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; -
+              PURE MEMETIC ENERGY - BONKS SISTER - ORGANIC <br />
+              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+              MOVEMENT
+            </span>
+          </p>
+        </div>
+        <div className="flex flex-col relative mt-5">
+          <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+            <div className="flex flex-col w-6/12 max-md:w-full">
+              <button className="flex flex-col relative mt-5 bg-black text-white rounded px-6 py-4 w-fit cursor-pointer">
+                Click me!
+              </button>
+            </div>
+            <div className="flex flex-col w-6/12 ml-5 max-md:ml-0 max-md:w-full">
+              <button className="flex flex-col relative mt-5 bg-black text-white rounded px-6 py-4 w-fit cursor-pointer">
+                Click me!
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
