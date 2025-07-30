@@ -5,7 +5,6 @@ import Image from "next/image";
 
 const navigation = [
   { name: "About", href: "#about" },
-  { name: "Exchanges", href: "#exchanges" },
   { name: "Tokenomics", href: "#tokenomics" },
   { name: "How to buy", href: "#buy" },
   // { name: "Wall of love", href: "#love" },
@@ -38,11 +37,11 @@ const Nav = () => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <Image
-              src="/logo-coin.png"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2Fd7f061df646d477b892d460064504da5"
               width={500}
               height={500}
               className={`transition-all duration-300 ${
-                isScrolled ? "h-14 w-auto" : "h-20 w-auto"
+                isScrolled ? "h-9 w-auto" : "h-14 w-auto"
               }`}
               alt="logo coin"
             />
@@ -67,7 +66,7 @@ const Nav = () => {
           <a
             href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
             target="_blank"
-            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
+            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-white hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
           >
             Buy $DUIS
           </a>
