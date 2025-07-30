@@ -30,9 +30,6 @@ const About = () => {
           </p>
           <div className="flex flex-col relative mt-5">
             <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-              <div className="flex flex-col w-6/12 max-md:w-full">
-                <div className="flex flex-col relative mt-5 h-auto pb-8"></div>
-              </div>
               <div className="flex flex-col w-6/12 ml-5 max-md:ml-0 max-md:w-full">
                 <img
                   loading="lazy"
