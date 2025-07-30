@@ -13,6 +13,13 @@ const About = () => {
             &nbsp; &nbsp; &nbsp;KITTY <br />
             &nbsp; &nbsp; &nbsp;THE MECHANIC
           </p>
+          <a
+            target="_blank"
+            href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+            className="transition duration-200 font-stopbuck text-lg sm:text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-white hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0 w-36 mr-auto mt-4"
+          >
+            <p>Buy $DUIS</p>
+          </a>
         </div>
         <div className="relative mt-5 h-auto text-red-600">
           <p>
