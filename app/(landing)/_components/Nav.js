@@ -37,7 +37,7 @@ const Nav = () => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <Image
-              src="/logo-coin.png"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2Fd7f061df646d477b892d460064504da5"
               width={500}
               height={500}
               className={`transition-all duration-300 ${
