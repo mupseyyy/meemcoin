@@ -4,7 +4,7 @@ import { Luckiest_Guy } from "next/font/google";
 const luckiestGuy = Luckiest_Guy({
   subsets: ["latin"],
   weight: ["400"],
-  variable: "--font-luckiest-guy"
+  variable: "--font-luckiest-guy",
 });
 
 export const metadata = {
