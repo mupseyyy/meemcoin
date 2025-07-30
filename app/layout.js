@@ -1,4 +1,5 @@
 import "./globals.css";
+import { Luckiest_Guy } from "next/font/google";
 
 export const metadata = {
   title: "Dúi (aka Nguyen Van Dui) | Solana",
