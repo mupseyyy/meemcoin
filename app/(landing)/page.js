@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import Header from "./_components/Header";
 import Nav from "./_components/Nav";
-import Hero from "./_components/Hero";
+
 import About from "./_components/About";
 import Tokenomics from "./_components/Tokenomics";
 import Exchanges from "./_components/Exchanges";
@@ -16,7 +16,7 @@ export default function Home() {
       <Header>
         <Nav />
       </Header>
-      <Hero />
+
       <div className="bg-[#e4e0e1]">
         <About />
         <Exchanges />
