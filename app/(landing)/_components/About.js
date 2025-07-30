@@ -4,8 +4,13 @@ import Image from "next/image";
 const About = () => {
   return (
     <div className="relative">
-      <div className="flex absolute -top-12 left-0 max-w-full overflow-clip z-10">
+      <div className="flex absolute -top-12 left-0 w-full overflow-clip z-10">
         <div className="cloud -ml-6"></div>
+        <div className="cloud"></div>
+        <div className="cloud"></div>
+        <div className="cloud"></div>
+        <div className="cloud"></div>
+        <div className="cloud"></div>
       </div>
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
         <div className="relative mt-5 h-auto text-red-400 text-6xl">
