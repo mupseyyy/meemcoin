@@ -6,25 +6,6 @@ const About = () => {
     <div className="relative">
       <div className="flex absolute -top-24 max-w-full overflow-clip">
         <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 rotate-12"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6 -rotate-6"></div>
-        <div className="cloud -ms-6"></div>
-        <div className="cloud -ms-6"></div>
       </div>
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
         <div className="my-7">
@@ -72,12 +53,6 @@ const About = () => {
         </div>
 
         <div className="mt-10 font-mono text-lg sm:text-2xl text-[#33271e] tracking-widest text-center">
-          <p>
-            Unfortunately 🥹, <span className="text-3xl font-bold">Dui</span>{" "}
-            passed away on{" "}
-            <span className="italic font-semibold">October 18, 2023</span>,
-            after a tragic snake🐍 bite.
-          </p>
           <p className="text-4xl p-10">
             But now{" "}
             <span className="text-5xl font-bold underline decoration-duis">
