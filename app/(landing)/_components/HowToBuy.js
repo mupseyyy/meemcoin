@@ -64,7 +64,7 @@ const HowToBuy = () => {
           <span>
             Welcome to the <br />
             <span className="uppercase font-extrabold text-2xl underline decoration-duis">
-              Duis family
+              KITTY Family
             </span>
             !
           </span>
