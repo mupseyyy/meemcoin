@@ -9,9 +9,9 @@ const About = () => {
       </div>
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
         <div className="my-7">
-          <h2 className="font-stopbuck text-6xl text-duis text-shadow text-center mt-14">
+          <div className="font-stopbuck text-6xl text-duis text-shadow text-center mt-14">
             About Dúi
-          </h2>
+          </div>
           <h3 className="font-stopbuck text-2xl text-center italic text-black">
             {`(Nguyen Van Dui)`}
           </h3>
