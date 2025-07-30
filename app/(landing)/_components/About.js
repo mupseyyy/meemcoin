@@ -12,9 +12,7 @@ const About = () => {
           <div className="font-stopbuck text-6xl text-duis text-shadow text-center mt-14">
             About Dúi
           </div>
-          <h3 className="font-stopbuck text-2xl text-center italic text-black">
-            {`(Nguyen Van Dui)`}
-          </h3>
+
         </div>
         <div className="grid lg:grid-cols-2 gap-6">
           <div className="">
