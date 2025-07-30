@@ -6,7 +6,7 @@ const OrderCard = ({ children, order, title, style }) => {
       <span className="absolute inset-0 border-2 border-dashed border-black"></span>
 
       <div className="relative h-full transform p-2 border-2 border-black bg-white transition-transform -translate-x-2 -translate-y-2 shadow-lg shadow-gray-500">
-        <div className="absolute -left-5 -top-5 border border-black text-red-500 rounded-full w-20 h-20 flex justify-center items-center text-4xl font-semibold font-stopbuck bg-duis">
+        <div className="absolute -left-5 -top-5 border border-black text-white rounded-full w-20 h-20 flex justify-center items-center text-4xl font-semibold font-stopbuck bg-duis">
           <span className="text-center">{order}</span>
         </div>
 
