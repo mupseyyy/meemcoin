@@ -16,13 +16,7 @@ const About = () => {
         </div>
         <div className="grid lg:grid-cols-2 gap-6">
           <div className="">
-            <Image
-              className="h-full object-cover"
-              src="/collection/9.png"
-              width={700}
-              height={700}
-              alt="Dui Image"
-            />
+
           </div>
 
           <div className="p-4 h-full sm:p-6">
