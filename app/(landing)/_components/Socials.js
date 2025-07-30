@@ -23,11 +23,7 @@ const cards = [
     title: "Tiktok",
     icon: "Tiktok",
   },
-  {
-    link: "https://www.facebook.com/gaumeolangdui",
-    title: "Facebook",
-    icon: "Facebook",
-  },
+
 ];
 
 const Socials = () => {
