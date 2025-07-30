@@ -17,11 +17,7 @@ const cards = [
     title: "Instagram",
     icon: "Instagram",
   },
-  {
-    link: "https://www.youtube.com/@lanlanpet",
-    title: "Youtube",
-    icon: "Youtube",
-  },
+
   {
     link: "https://www.tiktok.com/@nguyen_van_dui",
     title: "Tiktok",
