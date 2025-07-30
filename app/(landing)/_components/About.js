@@ -27,13 +27,11 @@ const About = () => {
                 <div className="flex flex-col relative mt-5 h-auto pb-8"></div>
               </div>
               <div className="flex flex-col w-6/12 ml-5 max-md:ml-0 max-md:w-full">
-                <Image
+                <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=100 100w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=200 200w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=400 400w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=800 800w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=1200 1200w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=1600 1600w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a?width=2000 2000w, https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F00ba5857bb554c918af726dd30ae8b8a"
                   className="aspect-[1.19] object-cover object-center w-full mt-5 min-h-5 min-w-5 overflow-hidden"
                   alt=""
-                  width={400}
-                  height={336}
                 />
               </div>
             </div>
