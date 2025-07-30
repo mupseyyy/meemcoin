@@ -23,7 +23,7 @@ const Hero = () => {
             <h1 
               className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight"
               style={{
-                fontFamily: '"Luckiest Guy", -apple-system, Roboto, Helvetica, sans-serif',
+                fontFamily: 'var(--font-luckiest-guy), "Luckiest Guy", -apple-system, Roboto, Helvetica, sans-serif',
                 color: '#C42B10',
                 textShadow: `
                   4px 4px 0 #000, 
