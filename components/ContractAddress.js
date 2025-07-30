@@ -34,7 +34,7 @@ const ContractAddress = () => {
 
             <button
               onClick={copyText}
-              className="absolute end-1 top-1/2 -translate-y-1/2 transition duration-200 font-stopbuck text-2xl rounded-xl px-3.5 py-2.5 font-medium text-duis shadow-2xl bg-gray-700 hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
+              className="absolute end-1 top-1/2 -translate-y-1/2 transition duration-200 font-stopbuck text-2xl rounded-xl px-3.5 py-2.5 font-medium text-red-400 shadow-2xl bg-black hover:bg-duis hover:text-gray-800 hover:outline-black outline outline-2 outline-offset-0"
             >
               <Copy />
             </button>
