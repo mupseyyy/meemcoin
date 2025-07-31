@@ -27,6 +27,9 @@ export default function Home() {
       {/* About MOMO Section */}
       <AboutMomo />
 
+      {/* Red Divider */}
+      <span className="block bg-duis h-[3px] border-[9.6px] border-red-900"></span>
+
       {/* Contract Section */}
       <ContractSection />
 
