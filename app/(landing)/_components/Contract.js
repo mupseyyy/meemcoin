@@ -25,7 +25,7 @@ const Contract = () => {
             <div className="w-full h-14 md:h-16 flex-shrink-0 rounded-xl bg-transparent shadow-[0_10px_15px_-3px_#374151,0_4px_6px_-4px_#374151] absolute left-0.5 top-0.5">
               
               {/* Input */}
-              <div className="inline-flex h-14 md:h-16 px-4 py-4 items-center flex-shrink-0 rounded-xl bg-gray-100 absolute left-0 top-0 w-full">
+              <div className="inline-flex h-14 md:h-16 px-4 py-4 items-center flex-shrink-0 rounded-xl bg-gray-100 absolute -left-96 top-0 w-full max-w-4xl">
                 <div className="w-full h-6 md:h-8 absolute left-4 top-3 md:top-4">
                   <div className="text-black font-stopbuck text-sm md:text-xl font-medium leading-6 md:leading-8 px-2 md:px-4 truncate">
                     8j5r6KTeeT9cm6WAmQ2MWB2SNeu97Cz1JTkSDG76moon
