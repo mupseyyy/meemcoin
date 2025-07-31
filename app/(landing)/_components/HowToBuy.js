@@ -63,7 +63,7 @@ const HowToBuy = () => {
         <OrderCard order={4} title={""} style={"rotate-2"}>
           <span>
             Welcome to the <br />
-            <span className="uppercase font-extrabold text-2xl underline decoration-duis">
+            <span className="uppercase font-extrabold text-2xl underline decoration-duis pb-5">
               KITTY Family
             </span>
             !
