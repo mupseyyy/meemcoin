@@ -56,7 +56,7 @@ const HowToBuy = () => {
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $SOL
             </span>{" "}
-            for <span className="font-extrabold text-2xl text-duis">$DUIS</span>
+            <p>for&nbsp;&nbsp;DIUS</p>
             .{`There's zero taxes so you don’t need to worry.`}
           </span>
         </OrderCard>
