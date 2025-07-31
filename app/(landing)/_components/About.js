@@ -6,9 +6,6 @@ const About = () => {
     <div className="relative">
       <div id="about" className="max-w-[85rem] px-4 py-10 sm:py-14 mx-auto">
         <div className="relative mt-5 h-auto text-red-400 text-6xl">
-          <p>
-            <br />
-          </p>
         </div>
         <div className="relative mt-5 h-auto text-red-600">
           <div className="flex flex-col relative mt-5">
