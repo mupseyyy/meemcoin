@@ -6,7 +6,7 @@ const HowToBuy = () => {
   return (
     <div id="buy" className="max-w-[85rem] mx-auto p-12">
       <div className="my-16">
-        <div className="text-white text-center text-6xl font-luckiest-guy mb-8" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+        <div className="text-center text-6xl font-luckiest-guy mb-8" style={{ color: "rgba(196, 43, 16, 1)", textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
           HOW TO BUY
         </div>
         <h2 className="font-stopbuck text-6xl text-duis text-center" style={{textShadow: "4px 0 5px rgba(255, 255, 255, 1)"}}>
