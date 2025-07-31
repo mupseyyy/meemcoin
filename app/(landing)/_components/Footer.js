@@ -13,8 +13,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-md/relaxed text-gray-500">
-            <span className="text-duis text-shadow">KITTY</span>{" "}
-            community 2025.
+            Community 2025.
             <br />
           </p>
 
