@@ -66,8 +66,7 @@ const Hero = () => {
           {/* Buttons Container */}
           <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-5 w-full sm:w-auto">
             {/* Buy Kitty Button */}
-            <a
-              href="https://dexscreener.com/solana/8j5r6kteet9cm6wamq2mwb2sneu97cz1jtksdg76moon"
+            <div
               className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
               style={{
                 borderRadius: "19.2px",
@@ -78,7 +77,7 @@ const Hero = () => {
               }}
             >
               BUY KITTY
-            </a>
+            </div>
 
             {/* Community Button */}
             <a
