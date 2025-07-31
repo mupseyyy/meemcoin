@@ -24,6 +24,12 @@ export default function Home() {
       {/* New Figma Hero Section */}
       <Hero />
 
+      {/* About MOMO Section */}
+      <AboutMomo />
+
+      {/* Contract Section */}
+      <ContractSection />
+
       {/* Original sections restored */}
       <div className="bg-[#e4e0e1] -mt-1">
         <div className="relative">
