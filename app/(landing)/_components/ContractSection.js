@@ -4,8 +4,11 @@ const ContractSection = () => {
   return (
     <section id="contract" className="flex w-full py-24 px-6 md:px-24 lg:px-32 justify-center items-center" style={{ backgroundColor: "rgba(237, 237, 237, 1)" }}>
       <div className="w-full max-w-6xl flex flex-col items-center gap-10">
-        {/* CONTRACT Heading */}
+        {/* TOKENOMICS Heading */}
         <div className="flex flex-col items-center">
+          <div className="my-16 text-white text-center text-6xl font-luckiest-guy" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+            <p>TOKENOMICS</p>
+          </div>
         </div>
         
         {/* Contract Address Container */}
