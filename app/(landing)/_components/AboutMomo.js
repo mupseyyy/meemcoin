@@ -23,10 +23,11 @@ const AboutMomo = () => {
           {/* Description */}
           <div className="mb-6">
             <p className="text-gray-800 text-lg leading-relaxed font-inter">
-              MOMO IS BONKS CHEEKY LITTLE SISTER - PASTEL PINK ENERGY
-              READY TO POUNCE BORN ON SOLANA. BUILT FOR FUN. BY THE
-              PEOPLE. FOR THE PEOPLE. 100% FAIR LAUNCHED, NO CABAL, NO
-              BUNDLES.
+              <p>
+                KITTY MECHANIC IS THE MEMECOIN THAT RUNS LIKE A RACE CAR — BUILT
+                ON SOLANA, DESIGNED TO RACE. FAIR LAUNCH, FULL THROTTLE, AND
+                100% MEOW POWER.
+              </p>
             </p>
           </div>
           
