@@ -15,7 +15,7 @@ const OrderCard = ({ children, order, title, style }) => {
             {title}
           </h3>
 
-          <p className="mt-4 text-lg text-justify flex justify-center text-black">{children}</p>
+          <div className="mt-4 text-lg text-justify flex justify-center text-black">{children}</div>
         </div>
       </div>
     </div>
