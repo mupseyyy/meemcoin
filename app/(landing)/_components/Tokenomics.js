@@ -27,7 +27,7 @@ const cards = [
 const Tokenomics = () => {
   return (
     <div id="tokenomics" className="max-w-[85rem] mx-auto py-12">
-      <div className="my-16 text-duis text-center" style={{textShadow: "1px 1px 3px rgba(0, 0, 0, 1)"}}>
+      <div className="my-16 text-duis text-center text-6xl font-stopbuck">
         Tokenomics
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-flow-col gap-5 gap-y-20 justify-center justify-items-center">
