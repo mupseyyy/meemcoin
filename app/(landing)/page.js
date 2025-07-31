@@ -3,6 +3,8 @@ import Image from "next/image";
 import Header from "./_components/Header";
 import Nav from "./_components/Nav";
 import Hero from "./_components/Hero";
+import FigmaHeader from "./_components/FigmaHeader";
+import Contract from "./_components/Contract";
 
 import About from "./_components/About";
 import Tokenomics from "./_components/Tokenomics";
@@ -14,6 +16,9 @@ import Footer from "./_components/Footer";
 export default function Home() {
   return (
     <>
+      {/* New Figma Header */}
+      <FigmaHeader />
+
       {/* New Figma Hero Section */}
       <Hero />
 
@@ -30,6 +35,9 @@ export default function Home() {
         </div>
 
         <Tokenomics />
+
+        {/* Contract Section */}
+        <Contract />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
             <span className="h-[3px] flex-1 bg-duis"></span>
