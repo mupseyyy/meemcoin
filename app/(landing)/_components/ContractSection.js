@@ -56,8 +56,8 @@ const ContractSection = () => {
         {/* Contract Address Container */}
         <div className="w-full max-w-2xl">
           <div className="relative flex justify-center items-center">
-            <div 
-              className="flex w-full max-w-xl h-16 px-4 py-2 justify-center items-center rounded-full border-4 border-black bg-white bg-opacity-90 shadow-[6px_6px_0_0_#000] backdrop-blur-sm cursor-pointer hover:bg-opacity-100 transition-all duration-200"
+            <div
+              className="flex w-full max-w-xl h-16 px-4 py-2 justify-center items-center rounded-full border-4 border-black bg-white bg-opacity-90 shadow-[6px_6px_0_0_#000] backdrop-blur-sm cursor-pointer hover:bg-opacity-100 hover:shadow-[8px_8px_0_0_#000] hover:scale-105 transition-all duration-200 active:scale-95"
               onClick={handleCopy}
               title="Click to copy contract address"
             >
