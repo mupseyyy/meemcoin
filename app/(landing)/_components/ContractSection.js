@@ -51,7 +51,7 @@ const ContractSection = () => {
       <div className="w-full max-w-6xl flex flex-col items-center">
         {/* CONTRACT Heading */}
         <div className="flex flex-col items-center">
-          <div className="my-16 text-white text-center text-6xl font-luckiest-guy" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+          <div className="my-16 text-center text-6xl font-luckiest-guy" style={{ color: "rgba(196, 43, 16, 1)", textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
             CONTRACT
           </div>
         </div>
@@ -75,7 +75,7 @@ const ContractSection = () => {
                     </p>
                   ) : (
                     <p>
-                      CA<span style={{fontSize: "18px"}}>:</span>
+                      CA<span style={{fontSize: "18px"}}>: MMMMM</span>
                     </p>
                   )}
                 </span>
