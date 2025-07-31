@@ -24,13 +24,6 @@ export default function Home() {
           <span className="flex items-center">
             <span className="h-[3px] flex-1 bg-duis"></span>
             <div>
-              <Image
-                className=""
-                src="/collection/5.png"
-                width={300}
-                height={300}
-                alt="dui-5"
-              />
             </div>
             <span className="h-[3px] flex-1 bg-duis"></span>
           </span>
@@ -41,13 +34,6 @@ export default function Home() {
           <span className="flex items-center">
             <span className="h-[3px] flex-1 bg-duis"></span>
             <div>
-              <Image
-                className=""
-                src="/collection/7.png"
-                width={300}
-                height={300}
-                alt="dui-7"
-              />
             </div>
             <span className="h-[3px] flex-1 bg-duis"></span>
           </span>
