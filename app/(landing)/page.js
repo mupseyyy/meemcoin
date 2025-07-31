@@ -19,9 +19,6 @@ export default function Home() {
 
       {/* Original sections restored */}
       <div className="bg-[#e4e0e1]">
-        <Header>
-          <Nav />
-        </Header>
         <About />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
