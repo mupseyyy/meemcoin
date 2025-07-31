@@ -23,7 +23,6 @@ const cards = [
     title: "Tiktok",
     icon: "Tiktok",
   },
-
 ];
 
 const Socials = () => {
@@ -36,11 +35,8 @@ const Socials = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-4">
         {cards.map((card, idx) => {
-          if (card.icon === 'Telegram') {
-            return (
-              <a key={idx} href={card.link} target="_blank">
-              </a>
-            );
+          if (card.icon === "Telegram") {
+            return <a key={idx} href={card.link} target="_blank"></a>;
           }
           return <LinkCardCircle key={idx} props={card} />;
         })}

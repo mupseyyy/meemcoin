@@ -6,11 +6,20 @@ const HowToBuy = () => {
   return (
     <div id="buy" className="max-w-[85rem] mx-auto p-12">
       <div className="my-16">
-        <div className="text-center text-6xl font-luckiest-guy mb-8" style={{ color: "rgba(196, 43, 16, 1)", textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+        <div
+          className="text-center text-6xl font-luckiest-guy mb-8"
+          style={{
+            color: "rgba(196, 43, 16, 1)",
+            textShadow:
+              "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
+          }}
+        >
           HOW TO BUY
         </div>
-        <h2 className="font-stopbuck text-6xl text-duis text-center" style={{textShadow: "4px 0 5px rgba(255, 255, 255, 1)"}}>
-        </h2>
+        <h2
+          className="font-stopbuck text-6xl text-duis text-center"
+          style={{ textShadow: "4px 0 5px rgba(255, 255, 255, 1)" }}
+        ></h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
           {`Just 4️⃣ steps to get rich 🤑`}
         </h3>
@@ -55,8 +64,8 @@ const HowToBuy = () => {
         <OrderCard order={3} title={"swap $Sol for $kitty"} style={"-rotate-1"}>
           <span>
             <p>
-              Paste the token address (CA) into your search bar and
-              swap <b>$SOL</b> for <b>$KITTY</b>
+              Paste the token address (CA) into your search bar and swap{" "}
+              <b>$SOL</b> for <b>$KITTY</b>
             </p>
             <p>
               <br />
@@ -75,8 +84,7 @@ const HowToBuy = () => {
         </OrderCard>
       </div>
 
-      <div className="my-16">
-      </div>
+      <div className="my-16"></div>
     </div>
   );
 };

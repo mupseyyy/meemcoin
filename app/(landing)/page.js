@@ -40,7 +40,13 @@ export default function Home() {
         </div>
 
         <div className="max-w-[85rem] mx-auto py-12 text-gray-200 bg-white bg-opacity-5">
-          <div className="my-16 text-white text-center text-6xl font-luckiest-guy" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+          <div
+            className="my-16 text-white text-center text-6xl font-luckiest-guy"
+            style={{
+              textShadow:
+                "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
+            }}
+          >
             <p>TOKENOMICS</p>
           </div>
           <Tokenomics />
@@ -48,8 +54,7 @@ export default function Home() {
 
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
-            <div>
-            </div>
+            <div></div>
           </span>
         </div>
         <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
@@ -58,15 +63,15 @@ export default function Home() {
           <HowToBuy />
         </div>
         <div className="text-center">
-          <div className="flex justify-center">
-          </div>
+          <div className="flex justify-center"></div>
           <div className="mt-5">
-            <p className="font-stopbuck text-2xl text-black"><p>Meow! Meow!</p></p>
+            <p className="font-stopbuck text-2xl text-black">
+              <p>Meow! Meow!</p>
+            </p>
           </div>
         </div>
         {/* <WallOfLove /> */}
-        <div className="flex justify-start pl-4">
-        </div>
+        <div className="flex justify-start pl-4"></div>
         <Footer />
       </div>
     </>

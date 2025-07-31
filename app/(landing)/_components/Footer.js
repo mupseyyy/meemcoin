@@ -16,7 +16,6 @@ const Footer = () => {
             Community 2025.
             <br />
           </p>
-
         </div>
       </div>
       <div className="overflow-hidden relative h-24">
@@ -29,8 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="absolute bottom-0 w-full">
-        <div>
-        </div>
+        <div></div>
       </div>
     </footer>
   );

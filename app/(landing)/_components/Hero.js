@@ -81,7 +81,12 @@ const Hero = () => {
 
             {/* Community Button */}
             <div
-              onClick={() => window.open('https://x.com/i/communities/1950692617940783237', '_blank')}
+              onClick={() =>
+                window.open(
+                  "https://x.com/i/communities/1950692617940783237",
+                  "_blank",
+                )
+              }
               className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
               style={{
                 borderRadius: "19.2px",
