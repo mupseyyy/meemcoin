@@ -19,7 +19,7 @@ const Hero = () => {
 
       {/* Content Container */}
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-8 lg:px-12 mx-auto">
-        <div className="flex flex-col items-start gap-8 lg:gap-12">
+        <div className="flex flex-col items-start gap-7 lg:gap-8">
           {/* Main Heading */}
           <div className="flex flex-col items-start w-full">
             <h1
@@ -59,11 +59,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              FIRST FEMALE SHIBA - THE PEOPLE'S DOG COIN OF THIS CYCLE
-              <br />
-              - PURE MEMETIC ENERGY - BONKS SISTER - ORGANIC
-              <br />
-              MOVEMENT
+              <p>YOUR FAVOURITE INTERNET CAT !</p>
             </p>
           </div>
 
@@ -86,7 +82,7 @@ const Hero = () => {
 
             {/* Community Button */}
             <a
-              href="https://x.com/i/communities/1950692617940783237"
+              href="https://x.com/kittymechanic_"
               className={`${inter.className} flex items-center justify-center px-8 py-4 sm:px-9 sm:py-5 text-sm sm:text-base font-bold leading-6 transition-all duration-200 hover:transform hover:translate-y-1 hover:shadow-md cursor-pointer`}
               style={{
                 borderRadius: "19.2px",
