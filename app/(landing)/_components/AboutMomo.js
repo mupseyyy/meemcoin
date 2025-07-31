@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMomo = () => {
   return (
-    <section id="about" className="flex w-full min-h-screen py-24 px-6 md:px-16 lg:px-24 justify-center items-center" style={{ backgroundColor: "rgba(237, 237, 237, 1)" }}>
+    <section id="about" className="flex w-full min-h-screen py-24 px-6 md:px-16 lg:px-24 justify-center items-center" style={{ backgroundColor: "rgba(228, 224, 225, 1)" }}>
       <div className="w-full max-w-7xl h-auto flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
         {/* Left Content */}
         <div className="flex-1 max-w-2xl">
