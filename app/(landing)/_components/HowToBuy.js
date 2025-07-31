@@ -34,7 +34,7 @@ const HowToBuy = () => {
         </OrderCard>
         <OrderCard order={2} title={"GET SOME SOL"} style={"-rotate-6"}>
           <span>
-            If you don’t have any{" "}
+            If you don't have any{" "}
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $SOL
             </span>
@@ -52,12 +52,14 @@ const HowToBuy = () => {
         </OrderCard>
         <OrderCard order={3} title={"swap $Sol for $kitty"} style={"-rotate-1"}>
           <span>
-            Paste the token address (CA) into wallet and swap{" "}
-            <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
-              $SOL
-            </span>{" "}
-            <p>for&nbsp;&nbsp;DIUS</p>
-            .{`There's zero taxes so you don’t need to worry.`}
+            <p>
+              Paste the token address (CA) into your search bar and
+              swap <b>$SOL</b> for <b>$KITTY</b>
+            </p>
+            <p>
+              <br />
+            </p>
+            {`There's zero taxes so you don't need to worry.`}
           </span>
         </OrderCard>
         <OrderCard order={4} title={""} style={"rotate-2"}>
