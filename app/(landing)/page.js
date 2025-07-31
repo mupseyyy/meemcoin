@@ -65,9 +65,7 @@ export default function Home() {
         <div className="text-center">
           <div className="flex justify-center"></div>
           <div className="mt-5">
-            <p className="font-stopbuck text-2xl text-black">
-              Meow! Meow!
-            </p>
+            <p className="font-stopbuck text-2xl text-black">Meow! Meow!</p>
           </div>
         </div>
         {/* <WallOfLove /> */}

@@ -2,7 +2,9 @@ import React from "react";
 
 const OrderCard = ({ children, order, title, style }) => {
   return (
-    <div className={`group relative block min-h-60 w-full ${style} transition-transform	hover:scale-110`}>
+    <div
+      className={`group relative block min-h-60 w-full ${style} transition-transform	hover:scale-110`}
+    >
       <span className="absolute inset-0 border-2 border-dashed border-black"></span>
 
       <div className="relative h-full transform p-2 border-2 border-black bg-white transition-transform -translate-x-2 -translate-y-2 shadow-lg shadow-gray-500">
@@ -15,7 +17,9 @@ const OrderCard = ({ children, order, title, style }) => {
             {title}
           </h3>
 
-          <div className="mt-4 text-lg text-justify flex justify-center text-black">{children}</div>
+          <div className="mt-4 text-lg text-justify flex justify-center text-black">
+            {children}
+          </div>
         </div>
       </div>
     </div>

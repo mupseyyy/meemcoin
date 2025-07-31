@@ -28,8 +28,8 @@ const AboutMomo = () => {
           <div className="mb-6">
             <p className="text-gray-800 text-lg leading-relaxed font-inter">
               KITTY MECHANIC IS THE MEMECOIN THAT RUNS LIKE A RACE CAR — BUILT
-              ON SOLANA, DESIGNED TO RACE. FAIR LAUNCH, FULL THROTTLE, AND
-              100% MEOW POWER.
+              ON SOLANA, DESIGNED TO RACE. FAIR LAUNCH, FULL THROTTLE, AND 100%
+              MEOW POWER.
             </p>
           </div>
 
