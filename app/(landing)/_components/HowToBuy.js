@@ -7,7 +7,7 @@ const HowToBuy = () => {
     <div id="buy" className="max-w-[85rem] mx-auto p-12">
       <div className="my-16">
         <h2 className="font-stopbuck text-6xl text-duis text-center" style={{textShadow: "4px 0 5px rgba(255, 255, 255, 1)"}}>
-          How To Buy
+          <span className="builder-text text-white font-luckiest-guy" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>CONTRACT</span>
         </h2>
         <h3 className="font-stopbuck text-2xl text-center text-black">
           {`Just 4️⃣ steps to get rich 🤑`}
