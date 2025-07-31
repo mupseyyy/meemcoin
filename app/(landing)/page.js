@@ -39,10 +39,8 @@ export default function Home() {
         <Contract />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
             <div>
             </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
           </span>
         </div>
 
