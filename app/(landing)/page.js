@@ -23,7 +23,7 @@ export default function Home() {
       <Hero />
 
       {/* Original sections restored */}
-      <div className="bg-[#e4e0e1]">
+      <div className="bg-[#e4e0e1] -mt-1">
         <About />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
