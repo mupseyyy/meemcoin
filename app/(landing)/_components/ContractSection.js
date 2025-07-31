@@ -2,19 +2,10 @@ import React from "react";
 
 const ContractSection = () => {
   return (
-    <section id="contract" className="flex w-full py-24 px-6 md:px-24 lg:px-32 justify-center items-center" style={{ backgroundColor: "#FFE9F4" }}>
+    <section id="contract" className="flex w-full py-24 px-6 md:px-24 lg:px-32 justify-center items-center" style={{ backgroundColor: "rgba(237, 237, 237, 1)" }}>
       <div className="w-full max-w-6xl flex flex-col items-center gap-10">
         {/* CONTRACT Heading */}
         <div className="flex flex-col items-center">
-          <h2 
-            className="text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-white font-luckiest-guy text-center"
-            style={{
-              textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
-              WebkitTextStroke: "4px #000"
-            }}
-          >
-            CONTRACT
-          </h2>
         </div>
         
         {/* Contract Address Container */}
