@@ -23,24 +23,24 @@ const FigmaHeader = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-start gap-8">
           <div className="flex flex-col items-start self-stretch relative">
-            <div className="text-black font-inter text-sm font-semibold leading-5 relative">
+            <a href="#about" className="text-black font-inter text-sm font-semibold leading-5 relative hover:text-gray-600 transition-colors">
               <span>About</span>
-            </div>
+            </a>
           </div>
           <div className="flex flex-col items-start self-stretch relative">
-            <div className="text-black font-inter text-sm font-semibold leading-5 relative">
+            <a href="#contract" className="text-black font-inter text-sm font-semibold leading-5 relative hover:text-gray-600 transition-colors">
               <span>Contract</span>
-            </div>
+            </a>
           </div>
           <div className="flex flex-col items-start self-stretch relative">
-            <div className="text-black font-inter text-sm font-semibold leading-5 relative">
+            <a href="#tokenomics" className="text-black font-inter text-sm font-semibold leading-5 relative hover:text-gray-600 transition-colors">
               <span>Tokenomics</span>
-            </div>
+            </a>
           </div>
           <div className="flex flex-col items-start self-stretch relative">
-            <div className="text-black font-inter text-sm font-semibold leading-5 relative">
+            <a href="#buy" className="text-black font-inter text-sm font-semibold leading-5 relative hover:text-gray-600 transition-colors">
               <span>How to buy</span>
-            </div>
+            </a>
           </div>
         </nav>
 
