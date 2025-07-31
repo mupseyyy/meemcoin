@@ -8,18 +8,18 @@ const cards = [
     icon: "Telegram",
   },
   {
-    link: "https://x.com/duisonsolana",
+    link: "https://x.com/kittymechanic_",
     title: "x",
     icon: "X",
   },
   {
-    link: "https://www.instagram.com/nguyen_van_dui",
+    link: "https://www.instagram.com/kittymechanicc/",
     title: "Instagram",
     icon: "Instagram",
   },
 
   {
-    link: "https://www.tiktok.com/@nguyen_van_dui",
+    link: "https://www.tiktok.com/@kittymechanic",
     title: "Tiktok",
     icon: "Tiktok",
   },
