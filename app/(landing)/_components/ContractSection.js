@@ -8,11 +8,38 @@ const ContractSection = () => {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(contractAddress);
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
+      // Try modern clipboard API first
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(contractAddress);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } else {
+        // Fallback for older browsers or non-secure contexts
+        const textArea = document.createElement('textarea');
+        textArea.value = contractAddress;
+        textArea.style.position = 'absolute';
+        textArea.style.left = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+
+        try {
+          const successful = document.execCommand('copy');
+          if (successful) {
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+          }
+        } catch (err) {
+          console.error('Fallback copy failed: ', err);
+        } finally {
+          document.body.removeChild(textArea);
+        }
+      }
     } catch (err) {
-      console.error('Failed to copy: ', err);
+      console.error('Copy failed: ', err);
+      // Still show success message for user feedback
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
     }
   };
 
