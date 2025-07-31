@@ -35,9 +35,15 @@ const Socials = () => {
         </h2>
       </div>
       <div className="flex flex-wrap justify-center gap-4">
-        {cards.map((card, idx) => (
-          <LinkCardCircle key={idx} props={card} />
-        ))}
+        {cards.map((card, idx) => {
+          if (card.icon === 'Telegram') {
+            return (
+              <a key={idx} href={card.link} target="_blank">
+              </a>
+            );
+          }
+          return <LinkCardCircle key={idx} props={card} />;
+        })}
       </div>
     </div>
   );
