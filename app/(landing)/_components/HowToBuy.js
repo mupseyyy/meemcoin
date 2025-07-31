@@ -32,7 +32,7 @@ const HowToBuy = () => {
             account.
           </span>
         </OrderCard>
-        <OrderCard order={2} title={"connect to dex"} style={"-rotate-6"}>
+        <OrderCard order={2} title={"GET SOME SOL"} style={"-rotate-6"}>
           <span>
             If you don’t have any{" "}
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
