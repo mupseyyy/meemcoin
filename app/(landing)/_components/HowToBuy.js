@@ -72,7 +72,6 @@ const HowToBuy = () => {
       </div>
 
       <div className="my-16">
-        <ContractAddress />
       </div>
     </div>
   );
