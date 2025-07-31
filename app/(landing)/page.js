@@ -25,14 +25,13 @@ export default function Home() {
       {/* Original sections restored */}
       <div className="bg-[#e4e0e1] -mt-1">
         <About />
-        <div className="max-w-[85rem] mx-auto mt-24">
-          <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
-            <div>
+        <div className="max-w-[85rem] mx-auto pt-1.5 pb-14">
+          <div className="flex flex-col relative mt-5">
+            <div className="flex gap-5">
             </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
-          </span>
+          </div>
         </div>
+        <span className="block bg-duis flex-1 h-[3px]"></span>
 
         <Tokenomics />
 
