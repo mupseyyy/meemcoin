@@ -59,7 +59,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              <p>YOUR FAVOURITE INTERNET CAT !</p>
+              YOUR FAVOURITE INTERNET CAT !
             </p>
           </div>
 
