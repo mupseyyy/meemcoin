@@ -1,22 +1,25 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 const ContractSection = () => {
   const [copied, setCopied] = useState(false);
-  const contractAddress = "G4zwEA9NSd3nMBbEj31MMPq2853Brx2oGsKzex3ebonk";
+  const textRef = useRef(null);
 
   const handleCopy = async () => {
     try {
+      // Get the actual text content from the displayed element
+      const textToCopy = textRef.current ? textRef.current.innerText || textRef.current.textContent : "CA:";
+
       // Try modern clipboard API first
       if (navigator.clipboard && window.isSecureContext) {
-        await navigator.clipboard.writeText(contractAddress);
+        await navigator.clipboard.writeText(textToCopy);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
       } else {
         // Fallback for older browsers or non-secure contexts
         const textArea = document.createElement('textarea');
-        textArea.value = contractAddress;
+        textArea.value = textToCopy;
         textArea.style.position = 'absolute';
         textArea.style.left = '-999999px';
         document.body.appendChild(textArea);
