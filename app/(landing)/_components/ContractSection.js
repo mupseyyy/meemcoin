@@ -65,14 +65,17 @@ const ContractSection = () => {
               title="Click to copy contract address"
             >
               <div className="flex w-full justify-center items-center">
-                <span className="text-gray-800 font-inter text-sm md:text-base font-normal leading-6 text-center truncate px-4">
+                <span
+                  ref={textRef}
+                  className="text-gray-800 font-inter text-sm md:text-base font-normal leading-6 text-center truncate px-4"
+                >
                   {copied ? (
                     <p className="text-green-600 font-semibold">
-                      Contract Address Copied!
+                      Text Copied!
                     </p>
                   ) : (
                     <p>
-                      CA<span style={{fontSize: "18px"}}>:</span> {contractAddress}
+                      CA<span style={{fontSize: "18px"}}>:</span>
                     </p>
                   )}
                 </span>
