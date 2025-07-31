@@ -5,7 +5,7 @@ import React from "react";
 const FigmaHeader = () => {
   return (
     <header className="fixed top-5 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-6xl px-4">
-      <div className="flex w-full h-auto px-6 py-3.5 items-center justify-between relative rounded-full border-2 border-black bg-red-600 shadow-[6px_6px_0_0_#000] backdrop-blur-md">
+      <div className="flex w-full h-auto px-6 py-3.5 items-center justify-between relative rounded-full border-2 border-black bg-duis shadow-[6px_6px_0_0_#000] backdrop-blur-md">
         {/* Logo Section */}
         <div className="flex justify-end items-center gap-2 relative">
           <img 
@@ -14,7 +14,7 @@ const FigmaHeader = () => {
             alt="MOMO Icon" 
           />
           <div className="flex pb-0.5 flex-col items-start">
-            <div className="flex w-full h-11 flex-col justify-center text-black font-['Luckiest_Guy'] text-2xl font-normal leading-8 tracking-[0.6px] relative">
+            <div className="flex w-full h-11 flex-col justify-center text-black font-luckiest-guy text-2xl font-normal leading-8 tracking-[0.6px] relative">
               <span>KITTY</span>
             </div>
           </div>
