@@ -24,27 +24,28 @@ export default function Home() {
 
       {/* Original sections restored */}
       <div className="bg-[#e4e0e1] -mt-1">
-        <About />
-        <div className="max-w-[85rem] mx-auto pt-1.5 pb-14">
-          <div className="flex flex-col relative mt-5">
-            <div className="flex gap-5">
-            </div>
-          </div>
+        <div className="relative">
+          <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
         </div>
-        <span className="block bg-duis flex-1 h-[3px]"></span>
 
-        <Tokenomics />
+        <div className="max-w-[85rem] mx-auto py-12 text-gray-200 bg-white bg-opacity-5">
+          <div className="my-16 text-white text-center text-6xl font-luckiest-guy" style={{ textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000" }}>
+            <p>TOKENOMICS</p>
+          </div>
+          <Tokenomics />
+        </div>
 
-        {/* Contract Section */}
-        <Contract />
         <div className="max-w-[85rem] mx-auto mt-24">
           <span className="flex items-center">
             <div>
             </div>
           </span>
         </div>
+        <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
 
-        <HowToBuy />
+        <div className="max-w-[85rem] mx-auto py-12 text-gray-200">
+          <HowToBuy />
+        </div>
         <div className="text-center">
           <div className="flex justify-center">
           </div>
