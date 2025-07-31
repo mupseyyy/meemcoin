@@ -11,7 +11,7 @@ const Contract = () => {
                  textShadow: "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
                  WebkitTextStroke: "4px #000"
                }}>
-            <span>CONTRACT</span>
+            <p>CONTRACT</p>
           </div>
         </div>
         
