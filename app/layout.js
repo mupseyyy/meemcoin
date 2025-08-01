@@ -8,8 +8,8 @@ const luckiestGuy = Luckiest_Guy({
 });
 
 export const metadata = {
-  title: "Dúi (aka Nguyen Van Dui) | Solana",
-  description: "Dui is forever on Solana",
+  title: "Kitty The Mechanic | Solana",
+  description: "Kity is forever on Solana",
 };
 
 export default function RootLayout({ children }) {
