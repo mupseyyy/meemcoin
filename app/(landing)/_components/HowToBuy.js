@@ -45,7 +45,7 @@ const HowToBuy = () => {
         </OrderCard>
         <OrderCard order={2} title={"GET SOME SOL"} style={"-rotate-6"}>
           <span>
-            If you don't have any{" "}
+            If you don&apos;t have any{" "}
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] inline-block text-transparent bg-clip-text uppercase font-extrabold text-2xl">
               $SOL
             </span>
