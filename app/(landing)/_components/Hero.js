@@ -43,7 +43,7 @@ const Hero = () => {
             >
               <span style={{ color: "rgba(255,255,255,1)" }}>
                 <br />
-                KITT
+                KITTy
               </span>
               <br />
               <span style={{ color: "rgba(196,43,16,1)" }}>THE MECHANIC</span>
