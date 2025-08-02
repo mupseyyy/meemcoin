@@ -70,7 +70,7 @@ const HowToBuy = () => {
             <p>
               <br />
             </p>
-            {`There's zero taxes so you don't need to worry.`}
+            There&apos;s zero taxes so you don&apos;t need to worry.
           </span>
         </OrderCard>
         <OrderCard order={4} title={""} style={"rotate-2"}>
