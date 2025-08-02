@@ -3,7 +3,12 @@ import Image from "next/image";
 import Header from "./_components/Header";
 import Nav from "./_components/Nav";
 import Hero from "./_components/Hero";
+import FigmaHeader from "./_components/FigmaHeader";
+import Contract from "./_components/Contract";
+
 import About from "./_components/About";
+import AboutMomo from "./_components/AboutMomo";
+import ContractSection from "./_components/ContractSection";
 import Tokenomics from "./_components/Tokenomics";
 import Exchanges from "./_components/Exchanges";
 import HowToBuy from "./_components/HowToBuy";
@@ -13,69 +18,58 @@ import Footer from "./_components/Footer";
 export default function Home() {
   return (
     <>
-      <Header>
-        <Nav />
-      </Header>
+      {/* New Figma Header */}
+      <FigmaHeader />
+
+      {/* New Figma Hero Section */}
       <Hero />
-      <div className="bg-[#e4e0e1]">
-        <About />
-        <Exchanges />
-        <div className="max-w-[85rem] mx-auto mt-24">
-          <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
-            <div>
-              <Image
-                className=""
-                src="/collection/5.png"
-                width={300}
-                height={300}
-                alt="dui-5"
-              />
-            </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
-          </span>
+
+      {/* About MOMO Section */}
+      <AboutMomo />
+
+      {/* Red Divider */}
+      <span className="block bg-duis h-[3px] border-[9.6px] border-red-900"></span>
+
+      {/* Contract Section */}
+      <ContractSection />
+
+      {/* Original sections restored */}
+      <div className="bg-[#e4e0e1] -mt-1">
+        <div className="relative">
+          <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
         </div>
 
-        <Tokenomics />
-        <div className="max-w-[85rem] mx-auto mt-24">
-          <span className="flex items-center">
-            <span className="h-[3px] flex-1 bg-duis"></span>
-            <div>
-              <Image
-                className=""
-                src="/collection/7.png"
-                width={300}
-                height={300}
-                alt="dui-7"
-              />
-            </div>
-            <span className="h-[3px] flex-1 bg-duis"></span>
-          </span>
-        </div>
-
-        <HowToBuy />
-        <div className="text-center">
-          <div className="flex justify-center">
-            <Image
-              className="hidden md:block"
-              src="/collection/6.png"
-              width={300}
-              height={300}
-              alt="dui-6"
-            />
-            <Image
-              className=""
-              src="/collection/8.png"
-              width={300}
-              height={300}
-              alt="dui-8"
-            />
+        <div className="max-w-[85rem] mx-auto py-12 text-gray-200 bg-white bg-opacity-5">
+          <div
+            className="my-16 text-white text-center text-6xl font-luckiest-guy"
+            style={{
+              textShadow:
+                "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
+            }}
+          >
+            <p>TOKENOMICS</p>
           </div>
+          <Tokenomics />
+        </div>
+
+        <div className="max-w-[85rem] mx-auto mt-24">
+          <span className="flex items-center">
+            <div></div>
+          </span>
+        </div>
+        <span className="block bg-duis flex-1 h-[3px] border-[10px] border-solid border-red-900"></span>
+
+        <div className="max-w-[85rem] mx-auto py-12 text-gray-200">
+          <HowToBuy />
+        </div>
+        <div className="text-center">
+          <div className="flex justify-center"></div>
           <div className="mt-5">
-            <p className="font-stopbuck text-2xl text-black">Woof! Woof!</p>
+            <p className="font-stopbuck text-2xl text-black">Meow! Meow!</p>
           </div>
         </div>
         {/* <WallOfLove /> */}
+        <div className="flex justify-start pl-4"></div>
         <Footer />
       </div>
     </>

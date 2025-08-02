@@ -13,65 +13,22 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-md/relaxed text-gray-500">
-            © &nbsp; <span className="text-duis text-shadow">DUIS</span>{" "}
-            community 2024.
+            Community 2025.
             <br />
-            <span className="underline decoration-duis">
-              {"All cutes reserved for duis's dawgs."}
-            </span>
-          </p>
-          <p className="text-black mt-4 px-3 text-base sm:text-lg md:text-2xl opacity-30 break-words">
-            {contractAddress}
           </p>
         </div>
       </div>
-      <div class="overflow-hidden relative h-24">
-        <img className="absolute bottom-0 w-full" src="grass.svg" alt="grass" />
+      <div className="overflow-hidden relative h-24">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets%2Fa0b33e0886874f46b6cddb65ebb255c5%2F46a180fbed1545c9ac2a6ec790398a7d"
+          className="aspect-[17.24] object-cover object-center w-full mt-5 min-h-[20px] min-w-[20px] overflow-hidden"
+          alt=""
+        />
       </div>
 
       <div className="absolute bottom-0 w-full">
-        <div className="flex justify-between px-5 lg:justify-around">
-          <div className="flex">
-            <div>
-              <Image
-                className=""
-                src="/collection/1.png"
-                width={200}
-                height={200}
-                alt="dui 1"
-              />
-            </div>
-            <div>
-              <Image
-                className=""
-                src="/collection/2.png"
-                width={200}
-                height={200}
-                alt="dui 2"
-              />
-            </div>
-          </div>
-          <div className="flex">
-            <div>
-              <Image
-                className=""
-                src="/collection/4.png"
-                width={200}
-                height={200}
-                alt="dui 4"
-              />
-            </div>
-            <div>
-              <Image
-                className=""
-                src="/collection/3.png"
-                width={200}
-                height={200}
-                alt="dui 3"
-              />
-            </div>
-          </div>
-        </div>
+        <div></div>
       </div>
     </footer>
   );

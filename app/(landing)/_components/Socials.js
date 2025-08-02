@@ -8,29 +8,20 @@ const cards = [
     icon: "Telegram",
   },
   {
-    link: "https://x.com/duisonsolana",
+    link: "https://x.com/kittymechanic_",
     title: "x",
     icon: "X",
   },
   {
-    link: "https://www.instagram.com/nguyen_van_dui",
+    link: "https://www.instagram.com/kittymechanicc/",
     title: "Instagram",
     icon: "Instagram",
   },
+
   {
-    link: "https://www.youtube.com/@lanlanpet",
-    title: "Youtube",
-    icon: "Youtube",
-  },
-  {
-    link: "https://www.tiktok.com/@nguyen_van_dui",
+    link: "https://www.tiktok.com/@kittymechanic",
     title: "Tiktok",
     icon: "Tiktok",
-  },
-  {
-    link: "https://www.facebook.com/gaumeolangdui",
-    title: "Facebook",
-    icon: "Facebook",
   },
 ];
 
@@ -43,9 +34,12 @@ const Socials = () => {
         </h2>
       </div>
       <div className="flex flex-wrap justify-center gap-4">
-        {cards.map((card, idx) => (
-          <LinkCardCircle key={idx} props={card} />
-        ))}
+        {cards.map((card, idx) => {
+          if (card.icon === "Telegram") {
+            return <a key={idx} href={card.link} target="_blank"></a>;
+          }
+          return <LinkCardCircle key={idx} props={card} />;
+        })}
       </div>
     </div>
   );
